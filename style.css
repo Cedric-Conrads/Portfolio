@@ -257,7 +257,6 @@ body {
 }
 
 @media (max-width: 900px) {
-
     .navbar {
         flex-direction: column;
         gap: 20px;
@@ -309,7 +308,7 @@ body {
     color: #8fa3c7;
     font-size: 16px;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 
 .document-grid {
