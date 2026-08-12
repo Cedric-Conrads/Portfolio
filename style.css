@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Cedric Conrads</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo">Cedric Conrads</h2>
+
+            <div class="nav-links">
+                <a href="#home">Start</a>
+                <a href="#projects">Projekte</a>
+                <a href="#details">Details</a>
+                <a href="#skills">Kenntnisse</a>
+                <a href="#why-it">Warum IT?</a>
+                <a href="#documents">Dokumentation</a>
+                <a href="#contact">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="hero-small">Portfolio Anwendungsentwicklung</p>
+
+                <h1>Cedric Conrads</h1>
+
+                <h2>
+                    Angehender Fachinformatiker für Anwendungsentwicklung
+                </h2>
+
+                <p class="hero-text">
+                    Am 17.08.2026 beginne ich bei COMCAVE in Dortmund meine Umschulung
+                    zum Fachinformatiker für Anwendungsentwicklung (IHK).
+                    Bereits vor Beginn der Umschulung beschäftige ich mich praktisch
+                    mit Webentwicklung, PHP, Datenbanken und der Entwicklung eigener Anwendungen.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="hero-btn">Meine Projekte ansehen</a>
+
+                    <a href="https://github.com/Cedric-Conrads/Cedric_Developer_Workspace"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="hero-btn secondary-btn">
+                        GitHub Workspace
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PROJEKTE -->
+        <section class="section" id="projects">
+            <h2>Meine Projekte</h2>
+
+            <div class="project-grid">
+
+                <!-- LAGERVERWALTUNG -->
+                <div class="project-card">
+                    <img src="Lagerverwaltung.png"
+                         alt="Screenshot der Lagerverwaltung"
+                         class="project-img">
+
+                    <h3>Lagerverwaltung</h3>
+
+                    <p>
+                        Eine datenbankgestützte Anwendung zur Verwaltung von Lagerartikeln.
+                        Artikel können angelegt, angezeigt, gesucht, bearbeitet und gelöscht werden.
+                    </p>
+
+                    <p class="project-tech">
+                        PHP · MySQL · SQL · CRUD · Prepared Statements
+                    </p>
+
+                    <a href="#lager-details" class="project-btn">
+                        Details ansehen
+                    </a>
+
+                    <a href="https://github.com/Cedric-Conrads/Cedric_Developer_Workspace/tree/main/01_Projekte/011_Lagerverwaltung"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-btn secondary-btn">
+                        GitHub
+                    </a>
+                </div>
+
+
+                <!-- TODO -->
+                <div class="project-card">
+                    <img src="TodoApp.png"
+                         alt="Screenshot der To-Do-App"
+                         class="project-img">
+
+                    <h3>To-Do-App</h3>
+
+                    <p>
+                        Eine kleine Aufgaben-App mit Hinzufügen, Löschen,
+                        Erledigt-Markierung, Enter-Funktion und Speicherung im Browser.
+                    </p>
+
+                    <p class="project-tech">
+                        HTML · CSS · JavaScript · LocalStorage
+                    </p>
+
+                    <a href="#todo-details" class="project-btn">
+                        Details ansehen
+                    </a>
+                </div>
+
+
+                <!-- MUSIK -->
+                <div class="project-card">
+                    <img src="Spotify-Clone.png"
+                         alt="Screenshot der Musik-Landingpage"
+                         class="project-img">
+
+                    <h3>Musik-Landingpage</h3>
+
+                    <p>
+                        Eine moderne Landingpage im Musik-Stil mit Hero-Bereich,
+                        Navigation, Feature-Karten, Animationen und responsivem Design.
+                    </p>
+
+                    <p class="project-tech">
+                        HTML · CSS · Responsive Design
+                    </p>
+
+                    <a href="#music-details" class="project-btn">
+                        Details ansehen
+                    </a>
+                </div>
+
+
+                <!-- RECHNER -->
+                <div class="project-card">
+                    <img src="Mini-Rechner.png"
+                         alt="Screenshot vom Mini-Rechner"
+                         class="project-img">
+
+                    <h3>Mini-Rechner</h3>
+
+                    <p>
+                        Ein Rechner mit vier Grundrechenarten, Fehlerabfragen,
+                        Reset-Funktion und Tastaturbedienung.
+                    </p>
+
+                    <p class="project-tech">
+                        HTML · CSS · JavaScript · Funktionen
+                    </p>
+
+                    <a href="#calculator-details" class="project-btn">
+                        Details ansehen
+                    </a>
+                </div>
+
+
+                <!-- SKILLTRACK -->
+                <div class="project-card">
+                    <img src="SkillTrack.png"
+                         alt="Screenshot von SkillTrack"
+                         class="project-img">
+
+                    <h3>SkillTrack</h3>
+
+                    <p>
+                        Eine Lernfortschritt-App zur Verwaltung persönlicher Lernziele
+                        mit Fortschrittsanzeige, Prozentbalken und Speicherung.
+                    </p>
+
+                    <p class="project-tech">
+                        HTML · CSS · JavaScript · LocalStorage
+                    </p>
+
+                    <a href="#skilltrack-details" class="project-btn">
+                        Details ansehen
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ALLGEMEINE DETAILS -->
+        <section class="section details" id="details">
+            <h2>Projekt-Details</h2>
+
+            <div class="details-box">
+                <h3>Mein bisheriger Lernweg</h3>
+
+                <p>
+                    Meine ersten Projekte entstanden mit HTML, CSS und JavaScript.
+                    Dabei habe ich gelernt, Webseiten zu strukturieren, Benutzeroberflächen
+                    zu gestalten und mit JavaScript interaktive Funktionen umzusetzen.
+                </p>
+
+                <p>
+                    Anschließend habe ich mich stärker mit Backend-Grundlagen beschäftigt.
+                    Dabei kamen PHP, SQL und MySQL hinzu. Mein Ziel war es zu verstehen,
+                    wie Anwendungen Daten verarbeiten, speichern und wieder aus einer
+                    Datenbank auslesen.
+                </p>
+
+                <p>
+                    Mit meiner Lagerverwaltung habe ich diese Grundlagen erstmals in
+                    einer größeren datenbankgestützten Anwendung miteinander verbunden.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- LAGERVERWALTUNG DETAILS -->
+        <section class="section details" id="lager-details">
+            <h2>Lagerverwaltung Details</h2>
+
+            <div class="details-box">
+                <h3>Projektbeschreibung</h3>
+
+                <p>
+                    Die Lagerverwaltung wurde mit PHP und MySQL entwickelt.
+                    Mit der Anwendung können Lagerartikel angelegt, angezeigt,
+                    gesucht, bearbeitet und gelöscht werden.
+                </p>
+
+                <p>
+                    Das Projekt bildet damit die grundlegenden CRUD-Operationen
+                    Create, Read, Update und Delete ab.
+                </p>
+
+                <p>
+                    Für Datenbankzugriffe werden Prepared Statements verwendet.
+                    Zusätzlich werden Eingaben serverseitig validiert.
+                </p>
+
+                <p>
+                    Bei der Ausgabe von Daten wird
+                    <code>htmlspecialchars()</code> verwendet, damit bestimmte
+                    eingegebene Zeichen nicht direkt als HTML interpretiert werden.
+                </p>
+
+                <p class="project-tech">
+                    Gelernt: PHP · MySQL · SQL · CRUD · Prepared Statements ·
+                    Serverseitige Validierung · htmlspecialchars()
+                </p>
+
+                <a href="https://github.com/Cedric-Conrads/Cedric_Developer_Workspace/tree/main/01_Projekte/011_Lagerverwaltung"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn">
+                    Projekt auf GitHub ansehen
+                </a>
+            </div>
+        </section>
+
+
+        <!-- TODO DETAILS -->
+        <section class="section details" id="todo-details">
+            <h2>To-Do-App Details</h2>
+
+            <div class="details-box">
+                <h3>Projektbeschreibung</h3>
+
+                <p>
+                    Die To-Do-App ermöglicht das Hinzufügen, Löschen und Abhaken von Aufgaben.
+                    Zusätzlich werden Aufgaben im Browser gespeichert, damit sie nach dem
+                    Neuladen erhalten bleiben.
+                </p>
+
+                <p class="project-tech">
+                    Gelernt: DOM-Manipulation · Events · LocalStorage · dynamische Inhalte
+                </p>
+            </div>
+        </section>
+
+
+        <!-- MUSIK DETAILS -->
+        <section class="section details" id="music-details">
+            <h2>Musik-Landingpage Details</h2>
+
+            <div class="details-box">
+                <h3>Projektbeschreibung</h3>
+
+                <p>
+                    Die Musik-Landingpage zeigt einen modernen Hero-Bereich,
+                    Navigation, Projektkarten, Animationen und responsives Design.
+                    Der Fokus lag besonders auf Layout, Farben, Abständen und Darstellung.
+                </p>
+
+                <p class="project-tech">
+                    Gelernt: HTML-Struktur · CSS-Layout · Flexbox · Responsive Design · Animationen
+                </p>
+            </div>
+        </section>
+
+
+        <!-- RECHNER DETAILS -->
+        <section class="section details" id="calculator-details">
+            <h2>Mini-Rechner Details</h2>
+
+            <div class="details-box">
+                <h3>Projektbeschreibung</h3>
+
+                <p>
+                    Der Mini-Rechner kann Addition, Subtraktion, Multiplikation
+                    und Division ausführen. Außerdem wurden Fehlerabfragen,
+                    eine Reset-Funktion und Tastaturbedienung eingebaut.
+                </p>
+
+                <p class="project-tech">
+                    Gelernt: Funktionen · Bedingungen · Eingaben auslesen · Rechenlogik
+                </p>
+            </div>
+        </section>
+
+
+        <!-- SKILLTRACK DETAILS -->
+        <section class="section details" id="skilltrack-details">
+            <h2>SkillTrack Details</h2>
+
+            <div class="details-box">
+                <h3>Projektbeschreibung</h3>
+
+                <p>
+                    SkillTrack ist eine Lernfortschritt-App.
+                    Lernziele können hinzugefügt, gelöscht und als erledigt markiert werden.
+                    Der Fortschritt wird als Text und Fortschrittsbalken angezeigt.
+                </p>
+
+                <p>
+                    Die Daten bleiben durch LocalStorage auch nach dem Neuladen
+                    der Seite erhalten.
+                </p>
+
+                <p class="project-tech">
+                    Gelernt: Arrays · LocalStorage · Fortschrittsberechnung · dynamische Anzeige
+                </p>
+            </div>
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <h2>Aktuelle Kenntnisse</h2>
+
+            <p class="section-intro">
+                Technologien und Konzepte, mit denen ich mich bisher praktisch beschäftigt habe:
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">PHP</div>
+                <div class="skill-card">MySQL</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">Git / GitHub</div>
+                <div class="skill-card">CRUD</div>
+                <div class="skill-card">Prepared Statements</div>
+                <div class="skill-card">Serverseitige Validierung</div>
+                <div class="skill-card">LocalStorage</div>
+                <div class="skill-card">DOM-Grundlagen</div>
+            </div>
+        </section>
+
+
+        <!-- WARUM IT -->
+        <section class="section why-it" id="why-it">
+            <h2>Warum IT?</h2>
+
+            <div class="details-box">
+                <p>
+                    Mich interessiert die IT, weil ich gerne logisch arbeite,
+                    Probleme analysiere und Lösungen Schritt für Schritt aufbaue.
+                    Besonders spannend finde ich es zu verstehen, wie aus einzelnen
+                    Bestandteilen eine funktionierende Anwendung entsteht.
+                </p>
+
+                <p>
+                    Nach meinen ersten Frontend-Projekten wollte ich deshalb auch verstehen,
+                    was hinter einer Anwendung passiert. Dadurch begann ich mich mit PHP,
+                    Datenbanken und SQL zu beschäftigen.
+                </p>
+
+                <p>
+                    Während meiner Umschulung möchte ich meine Kenntnisse in der
+                    Softwareentwicklung weiter ausbauen und praktische Erfahrung sammeln.
+                    Langfristig interessiert mich besonders der Bereich IT-Security.
+                    Dafür möchte ich zunächst ein solides Verständnis dafür entwickeln,
+                    wie Anwendungen und Datenbanken aufgebaut und sicher umgesetzt werden.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- DOKUMENTATION -->
+        <section class="section" id="documents">
+            <h2>Dokumentation & Lernnachweis</h2>
+
+            <div class="document-grid">
+
+                <div class="document-card">
+                    <h3>Developer Workspace</h3>
+
+                    <p>
+                        In meinem GitHub-Workspace dokumentiere ich meine Projekte
+                        und meinen aktuellen Lernfortschritt.
+                    </p>
+
+                    <p class="project-tech">
+                        Projekte · Git · GitHub · Dokumentation
+                    </p>
+
+                    <a href="https://github.com/Cedric-Conrads/Cedric_Developer_Workspace"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-btn">
+                        GitHub Workspace öffnen
+                    </a>
+                </div>
+
+
+                <div class="document-card">
+                    <h3>Developer BIB</h3>
+
+                    <p>
+                        Parallel zu meinen Projekten pflege ich eine eigene Developer BIB.
+                        Dort halte ich gelernte Konzepte, Beispiele, typische Fehler
+                        und wichtige Grundlagen fest.
+                    </p>
+
+                    <p class="project-tech">
+                        PHP · SQL · Git · Webentwicklung · Lernnotizen
+                    </p>
+
+                    <a href="https://github.com/Cedric-Conrads/Cedric_Developer_Workspace/tree/main/03_Developer_BIB"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-btn">
+                        Developer BIB ansehen
+                    </a>
+                </div>
+
+
+                <div class="document-card">
+                    <h3>Portfolio-Übersicht</h3>
+
+                    <p>
+                        Zusätzlich zur Webseite gibt es eine PDF-Version meines Portfolios.
+                        Darin sind bisherige Projekte, Kenntnisse und Lernfortschritte
+                        zusammengefasst.
+                    </p>
+
+                    <p class="project-tech">
+                        Portfolio · Projekte · Lernfortschritt
+                    </p>
+
+                    <a href="portfolio.pdf"
+                       target="_blank"
+                       class="project-btn">
+                        Portfolio-PDF öffnen
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- KONTAKT -->
+        <section class="section contact" id="contact">
+            <h2>Kontakt</h2>
+
+            <div class="details-box">
+                <p>
+                    Dieses Portfolio dokumentiert meinen bisherigen Einstieg in die
+                    Anwendungsentwicklung und wird während meiner Umschulung kontinuierlich
+                    um neue Projekte und Kenntnisse erweitert.
+                </p>
+
+                <p>
+                    E-Mail:
+                    <a href="mailto:cedric.conrads@icloud.com">
+                        cedric.conrads@icloud.com
+                    </a>
+                </p>
+
+                <p>
+                    GitHub:
+                    <a href="https://github.com/Cedric-Conrads/Cedric_Developer_Workspace"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Cedric Developer Workspace
+                    </a>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>© 2026 Cedric Conrads | Portfolio Anwendungsentwicklung</p>
+    </footer>
+
+    <button id="top-btn">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
